@@ -71,6 +71,7 @@
             style.top = style.left = style.right = style.margin = style.padding = 0
             style.zIndex = 100001
             style.display = 'none'
+            style.pointerEvents = 'none'
             document.body.appendChild(canvas)
             addEvent(window, 'resize', repaint)
         },
